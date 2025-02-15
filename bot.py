@@ -67,7 +67,7 @@ async def start_parse(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
 
 def main() -> None:
     
-    token = "7907683725:AAFcC1_kQoJGRyh9Ko0IE2FqPa59l8mm3Fo"
+    token = "TELEGRAM_TOKEN"
     
     application = ApplicationBuilder().token(token).build()
     
